@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7e9; /* Cambiado a un verde muy claro */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4caf50; /* Cambiado a un verde medio */
+}
+
+header h1 {
+    font-size: 2em;
+    color: #ffffff; /* Cambiado a blanco */
+}
+
+.header-img {
+    width: 600px;
+    height: auto;  
+}
+
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #66bb6a; /* Cambiado a un verde claro */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #388e3c; /* Cambiado a un verde más oscuro */
+}
+
+.content {
+    padding: 20px;
+    background-color: #ffffff; /* Cambiado a blanco */
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+.back-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-button a {
+    background-color: #4caf50; /* Cambiado a un verde medio */
+}
+
+.back-button a:hover {
+    background-color: #81c784; /* Cambiado a un verde claro */
+}
+
+section {
+    background-color: #ffffff; 
+}
+
+#tipos_abonos header,
+#beneficios_abonos header,
+#compostaje_abonos header {
+    background-color: #388e3c; /* Cambiado a un verde más oscuro */
+}
+
+button, a {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+button {
+    background-color: #4caf50; /* Cambiado a un verde medio */
+    color: white;
+}
+
+a {
+    background-color: #2e7d32; /* Cambiado a un verde más oscuro */
+    color: white;
+}
+
+button:hover, a:hover {
+    background-color: #66bb6a; /* Cambiado a un verde claro */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.back-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.back-button a {
+    background-color: #4caf50; /* Cambiado a un verde medio */
+}
+
+.back-button a:hover {
+    background-color: #81c784; /* Cambiado a un verde claro */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
